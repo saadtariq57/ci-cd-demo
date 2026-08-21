@@ -14,7 +14,7 @@ describe('Task API Integration Tests', () => {
 
       expect(response.status).toBe(200);
       expect(response.body).toEqual({
-        message: 'Task Management API',
+        message: 'I am breaking CI',
       });
     });
   });
