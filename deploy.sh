@@ -2,6 +2,15 @@
 
 set -e
 
+export NVM_DIR="$HOME/.nvm"
+
+if [ -s "$NVM_DIR/nvm.sh" ]; then
+    source "$NVM_DIR/nvm.sh"
+fi
+
+echo "Node: $(node -v)"
+echo "npm: $(npm -v)"
+
 echo "==> Pulling latest code..."
 git pull origin main
 
