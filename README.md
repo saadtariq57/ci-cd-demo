@@ -4,7 +4,7 @@ A clean, light-weight, type-safe RESTful Task Management API built with Node.js,
 
 ## Technology Stack
 
-- **Runtime**: Node.js (v24+)
+- **Runtime**: Node.js (v24)
 - **Language**: TypeScript (v5+)
 - **Framework**: Express (v4+)
 - **Development Tooling**: `tsx` (TypeScript Execute / Watch)
